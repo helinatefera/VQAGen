@@ -1,0 +1,34 @@
+training:
+  batch_size: 32
+  epochs: 10
+  learning_rate: 0.001
+  optimizer: "adam"
+  loss_function: "cross_entropy"
+  validation_split: 0.2
+  early_stopping:
+    patience: 5
+    min_delta: 0.01
+  lang: "eng"
+data:
+  root_dir: /home/amerti/Documents/MSC/VQAGen/datasets/
+  feat_path:
+    train: clip-rcnn-attn/train_clip_rcnn_attn.pkl
+    val: clip-rcnn-attn/val_clip_rcnn_attn.pkl
+    test: clip-rcnn-attn/test_clip_rcnn_attn.pkl 
+  qa_path_eng:
+    train: qa/train_english.csv
+    val: qa/val_english.csv
+    test: qa/test_english.csv
+  qa_path_am:
+    train: qa/train_amharic.csv
+    val: qa/val_amharic.csv
+    test: qa/test_amharic.csv
+  obj_feat_am:
+    train: obj_feat/train_obj_feat_am.pkl
+    val: obj_feat/val_obj_feat_am.pkl
+    test: obj_feat/test_obj_feat_am.pkl
+  obj_feat_eng:
+    train: obj_feat/train_obj_feat_eng.pkl
+    val: obj_feat/val_obj_feat_eng.pkl
+    test: obj_feat/test_obj_feat_eng.pkl
+
