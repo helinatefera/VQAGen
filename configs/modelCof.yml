@@ -1,0 +1,4 @@
+model_am:
+  root_dir: vqagen/models_am
+  clip_based_model:
+    name: clip_based.py
