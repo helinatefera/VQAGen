@@ -70,7 +70,7 @@ cd VQAGen
 
 ---
 
-## 📥 Download Dataset
+## 📥 Download Dataset and Extracted Feature of video
 
 Download the dataset from Hugging Face:
 
@@ -96,8 +96,34 @@ datasets/
 ├── clip-rcnn-attn/
 │   ├── *.pkl
 ```
-
 ---
+
+## 📥 One-Video Frame Sampling and Feature Extraction
+
+To test the full pipeline on a single video, follow these steps:
+
+1. **Download the Amharic caption dataset** from Hugging Face:
+
+👉 [Download MSDV Amharic Captions](https://huggingface.co/datasets/hinaltt/video_caption/tree/main)
+
+Save the file as:
+
+```
+
+video_captions/MSDV_amharic_caption.txt
+
+```
+
+2. **Use any video file** to run the following step-by-step scripts:
+   - Frame extraction
+   - Best 16 frame selection (M-CLIP based)
+   - Object detection and labeling
+   - TimeSformer feature extraction
+
+For reference scripts, see:
+
+👉 [View Scripts on GitHub](https://github.com/helinatefera/VQAGen/tree/main/scripts)
+
 
 ## 🚀 Train the Model
 
