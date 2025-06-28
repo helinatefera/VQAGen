@@ -24,7 +24,7 @@ This project proposes a Video Question Answering (VideoQA) system designed speci
 - **Text Encoder**: Amharic BERT
 - **Visual Encoders**:
   - CLIP for frame-level features
-  -Temporal Video repesentation with TimeSformer
+  - Temporal Video repesentation with TimeSformer
   - FastRCNN for object features
 - **Fusion Mechanism**: Bidirectional cross-modal attention (8 heads, 2 layers)
 - **Output**: Simple classifier over answer candidates
