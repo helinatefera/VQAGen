@@ -1,9 +1,8 @@
 # Multimodal Understanding for Amharic Video Question Answering using Bidirectional Cross Modal Attention
 
-[![Demo](https://img.shields.io/badge/Live%20Demo-github.com%2Fhelinatefera%2FVQAGen--Demo-blue?style=for-the-badge)](https://github.com/helinatefera/VQAGen-Demo)
+[![Demo](https://img.shields.io/badge/Demo-github.com%2Fhelinatefera%2FVQAGen--Demo-blue?style=for-the-badge)](https://github.com/helinatefera/VQAGen-Demo)
 
 ![Model Architecture](img/arch.png)
-
 
 This project proposes a first Video Question Answering (VideoQA) system designed specifically for the Amharic language. It integrates multiple modalities visual frames, object features, and textual data using a bidirectional cross-modal attention mechanism to answer natural language questions based on video content. 
 
