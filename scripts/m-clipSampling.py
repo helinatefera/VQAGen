@@ -232,11 +232,11 @@ if __name__ == "__main__":
     # Set up argument parser
     parser = argparse.ArgumentParser(description="Process a single video's frames to select representative frames.")
     parser.add_argument("--video_id", type=str, required=True, help="Video ID (name of the folder containing frames)")
-    parser.add_argument("--video_frames_folder", type=str, default="/home/amerti/Documents/video_frames",
+    parser.add_argument("--video_frames_folder", type=str, default="/video_frames",
                         help="Base folder containing video frame folders")
-    parser.add_argument("--annotation_file", type=str, default="/home/amerti/Documents/MSC/amahric_dataset/MSDV_amharic_caption.txt",
+    parser.add_argument("--annotation_file", type=str, default="/amahric_dataset/MSDV_amharic_caption.txt",
                         help="Path to the annotations file")
-    parser.add_argument("--output_base_folder", type=str, default="/home/amerti/Documents/16_best",
+    parser.add_argument("--output_base_folder", type=str, default="/16_best",
                         help="Base folder to save selected frames")
     args = parser.parse_args()
     
