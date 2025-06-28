@@ -1,5 +1,5 @@
 # Multimodal Understanding for Amharic Video Question Answering using Bidirectional Cross Modal Attention
-![Model Architecture](image/arch.png)
+![Model Architecture](img/arch.png)
 This project proposes a Video Question Answering (VideoQA) system designed specifically for the Amharic language. It integrates multiple modalities—visual frames, object features, and textual data using a bidirectional cross-modal attention mechanism to answer natural language questions based on video content.
 
 ## 🎯 Objectives
